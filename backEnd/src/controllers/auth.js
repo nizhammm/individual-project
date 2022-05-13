@@ -15,7 +15,7 @@ const authControllers = {
 
       if (password !== repeatPassword) {
         return res.status(400).json({
-          message: 'password not match',
+          message: 'Password not match',
         });
       }
 
@@ -27,7 +27,7 @@ const authControllers = {
 
       if (isUsernameEmailRegisterd) {
         return res.status(400).json({
-          message: 'username is not available or email has been registered',
+          message: 'Username is not available or email has been registered',
         });
       }
 

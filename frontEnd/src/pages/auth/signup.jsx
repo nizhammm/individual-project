@@ -159,7 +159,7 @@ const signupPage = () => {
               <Link href={'/auth/login'}>
                 <Text>
                   <Button fontSize="md" variant="link" colorScheme="green" size="sm">
-                    Login
+                    Sign In
                   </Button>
                 </Text>
               </Link>
